@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos generales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E8E8E8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Estilos del formulario */
+.formulario {
+  min-width: 600px;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.formulario > div {
+  margin-bottom: 20px;
+}
+
+/* Estilos de etiquetas y campos de entrada */
+.formulario label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #1f1f1f;
+}
+
+.formulario input,
+.formulario textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #e2e2e2;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: #1f1f1f;
+  transition: border-color 0.3s ease;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: #0085FF;
+}
+
+/* Estilos de mensajes de error y éxito */
+.formulario .error {
+  color: #e92b2d;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.formulario .exito {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  color: #02a802;
+}
+
+/* Estilos del botón de enviar */
+.formulario button[type="submit"] {
+  display: block;
+  background: #0085FF;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.formulario button[type="submit"]:hover {
+  background: #0051ff;
+}
+
+/* Estilos para radio buttons */
+.formulario input[type="radio"] {
+  width: auto;
+}
+
+
+/* Estilos para la tarjeta de presentación */
+.tarjeta {
+	max-width: 400px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .tarjeta div {
+	font-size: 16px;
+  }
+  
+  .tarjeta div p {
+	margin-bottom: 8px;
+  }
+  
